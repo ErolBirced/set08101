@@ -9,12 +9,17 @@ const goBack = document.getElementById("goBack");
 const quit = document.getElementById("quit");
 const save = document.getElementById("save");
 const refresh = document.getElementById("refresh");
+const closeOptions = document.getElementById("closeOptions");
 
 goBack.addEventListener("click", () => history.back());
 
 quit.addEventListener("click", () => (window.location = "../index.html"));
 
 refresh.addEventListener("click", () => location.reload());
+
+closeOptions.addEventListener("click", () =>
+  container.classList.remove("show-nav2")
+);
 
 // save.addEventListener("click", () => )
 

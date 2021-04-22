@@ -251,7 +251,6 @@ button:focus {
 }
 
 button {
-  text-transform: uppercase;
   color: #fff;
   background: none;
   border: 0px;
